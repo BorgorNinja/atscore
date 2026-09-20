@@ -42,6 +42,10 @@ Note: `prisma generate` downloads engine binaries from
 that host, or run this step somewhere with normal internet access before
 copying `node_modules` over.
 
+## Deploying on your own VPS
+
+See [DEPLOY.md](./DEPLOY.md) for a full step-by-step guide (Postgres, pm2, nginx, TLS, troubleshooting).
+
 ## Deploying (Vercel + Neon, free tier)
 
 1. Push this repo, import it into Vercel.
